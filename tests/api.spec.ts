@@ -42,4 +42,5 @@ test('delete user', async ({ request }) => {
         }
   })
    expect(response.status()).toBe(204)
+   
 });
